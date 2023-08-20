@@ -12,8 +12,10 @@ def get_all_file_path(path: Path) -> List:
     Return list of string that contains all the path inside
     """
     all_file_path_list = []
+    filepath = Path(path)
+    
     # Check if the path valid (is file or directory)
-    if not path.exists():
+    if not filepath.exists():
         raise OSError("file or directory not exist. Please check the path again")
     
     return all_file_path_list
@@ -22,7 +24,10 @@ def get_all_file_path(path: Path) -> List:
 def get_file_size(path: Path) -> Tuple:
     """
     """
-    
+    if os.path.isdir(path):
+        return (path, "⇩");
+    return (path,str(os.stat(path)))
+
 
 
 
