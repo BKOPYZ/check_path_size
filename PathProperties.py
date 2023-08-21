@@ -1,8 +1,20 @@
-class FileProperties:
+from enum import Enum
+
+class PathUnit(Enum):
+    KILO = 0
+    MEGA = 1
+    GIGA = 2
+
+class PathType(Enum):
+    FILE =0
+    DIRECTORY = 1 
+    UNKNOWN =2
+
+class PathProperties:
 
     smallestindex = None;
     # next time will do the file and folder count the check the similarity next time
-    def __init__(self, path: str, size = 0):
+    def __init__(self, path: str, size , pathunit: PathUnit, pathtype: PathType = PathType.UNKNOWN ):
         self.__path = path
         self.__name = self.__set_name(path)
         self.__size = size
@@ -10,10 +22,9 @@ class FileProperties:
         self.child = False # change later
         self.has_child = False # change later
         self.pos = self.__get_pos()
-
-    
-
-    
+        self.type = pathtype
+        self.unit = pathunit
+        
     def __call__(self) -> str:
         spacebet = 93 - self.pos * 4
         spacefront = "\t" * self.pos + "|-"
