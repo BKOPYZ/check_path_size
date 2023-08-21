@@ -13,7 +13,6 @@ BYTE_TO_KILOBYTE = 1.0/1024
 BYTE_TO_GEGABYTE = 1.0/(1024 ** 3)
 CONFIG_PATH = "config.txt"
 
-#TODO delete pos in set_pathinfo __add_pathinfo
 # --------------------------------------------------
 def set_pathinfo(path: Path, depth: int, ) -> None:
     pathfile = Path(path)
