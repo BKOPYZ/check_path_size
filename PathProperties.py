@@ -26,7 +26,7 @@ class PathProperties:
         self.unit = pathunit
         
     def __call__(self) -> str:
-        spacebet = 93 - self.pos * 4
+        spacebet = 95
         spacefront = "\t" * self.pos + "|-"
  
         return  f"{spacefront}{self.get_name():<{spacebet}} {self.get_size():.2f} MB\n"

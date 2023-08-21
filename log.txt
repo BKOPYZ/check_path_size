@@ -1,130 +1,130 @@
-|-Year2Sem1                                                                                     339.00 MB
-	|-Year2Sem1                                                                                 188.95 MB
-		|-CSS224                                                                                15.63 MB
-			|-01 course outline.pdf                                                             0.22 MB
-			|-02 lecture01 2021.pdf                                                             1.41 MB
-			|-03 lecture02 2021.pdf                                                             1.88 MB
-			|-04 lecture03 2021.pdf                                                             1.95 MB
-			|-05 lecture04 2021.pdf                                                             1.83 MB
-			|-06 lecture05 2021.pdf                                                             2.50 MB
-			|-07 lecture06 2021.pdf                                                             2.80 MB
-			|-08 lecture07 2021.pdf                                                             0.97 MB
-			|-09 lecture08 2021.pdf                                                             0.44 MB
-			|-CSS224 1A.pdf                                                                     1.40 MB
-			|-score assign3.pdf                                                                 0.09 MB
-			|-score CSS224.pdf                                                                  0.15 MB
-		|-EES371                                                                                51.39 MB
-			|-6322774462_Methika_Aungkurboribhun _EES 371 Quiz 04C.pdf                          0.45 MB
-			|-6322774462_Methika_Aungkurboribhun.pdf                                            0.45 MB
-			|-6322774462_Methika_Aungkurboribhun_EES 371 Quiz 03C.pdf                           0.40 MB
-			|-EES 371 Boolean Algebraic Laws.pdf                                                0.11 MB
-			|-EES 371 Quiz 06_Methika_Aungkurboribhun.pdf                                       0.27 MB
-			|-EES 371-02 Exercise.pdf                                                           0.22 MB
-			|-EES 371-02 Numbering Systems.pdf                                                  3.79 MB
-			|-EES 371-03 Logic Gates.pdf                                                        3.31 MB
-			|-EES 371-04 Combinational Logic Circuits.pdf                                       4.04 MB
-			|-EES 371-05 K-Map.pdf                                                              2.42 MB
-			|-EES 371-06 Digital Integrated Circuits.pdf                                        1.82 MB
-			|-EES 371-07 Applications of Combinational Logic.pdf                                5.47 MB
-			|-EES 371-08 Latches and Flip-Flops.pdf                                             3.71 MB
-			|-EES 371-09 Sequential Logic (Analysis).pdf                                        2.04 MB
-			|-EES 371-10 Sequential Logic (Design).pdf                                          3.66 MB
-			|-EES 371-11 Binary Counters (Final Until This Part).pdf                            1.49 MB
-			|-EES 371-12 Memory and Storage.pdf                                                 2.68 MB
-			|-EES 371-13 PLD and VHDL.pdf                                                       5.94 MB
-			|-EES 371-14 Analog-Digital Conversions.pdf                                         6.99 MB
-			|-Methika EES 371-10 Exercise.pdf                                                   0.71 MB
-			|-Methika-Aungkurboribhun-6322774462-EES 371 Quiz 09A.pdf                           0.50 MB
-			|-Methika-Aungkurboribhun-6322774462-EES 371 Quiz 10B.pdf                           0.26 MB
-			|-Methika_Aungkurboribhun_6322774462-EES 371 Quiz 08B.pdf                           0.50 MB
-			|-Methika_Aungkurboribhun_6322774462_EES 371 Quiz 07C.pdf                           0.17 MB
-		|-GTS210                                                                                30.99 MB
-			|-Gts210 Final Summary.pdf                                                          5.82 MB
-			|-L10_M3_2021.pdf                                                                   1.03 MB
-			|-L11_M3_2021.pdf                                                                   1.01 MB
-			|-L12_M3_2021.pdf                                                                   1.36 MB
-			|-L13_M3_2021.pdf                                                                   0.51 MB
-			|-L1_M3_2021.pdf                                                                    0.79 MB
-			|-L2_M3_2021.pdf                                                                    0.70 MB
-			|-L3_M3_2021.pdf                                                                    0.70 MB
-			|-L4_M3_2021.pdf                                                                    0.52 MB
-			|-L5_M3_2021.pdf                                                                    0.60 MB
-			|-L6_M3_2021.pdf                                                                    3.02 MB
-			|-L7_M3_2021.pdf                                                                    0.90 MB
-			|-L8_M3_2021.pdf                                                                    0.94 MB
-			|-L9_M3_2021.pdf                                                                    0.83 MB
-			|-Practice_Final_Exam_Paper.pdf                                                     12.27 MB
-		|-GTS231                                                                                18.54 MB
-			|-WEEK1 GTS231 Law and Technology.pdf                                               1.26 MB
-			|-WEEK10 GTS231 Law and Technology.pdf                                              3.32 MB
-			|-WEEK11 GTS231 Law and Technology.pdf                                              0.81 MB
-			|-WEEK12 GTS231 Law and Technology.pdf                                              0.64 MB
-			|-WEEK15 GTS231 Law and Technology.pdf                                              2.26 MB
-			|-WEEK2 GTS231 Law and Technology.pdf                                               0.86 MB
-			|-WEEK3 GTS231 Law and Technology.pdf                                               2.48 MB
-			|-WEEK4 GTS231 Law and Technology.pdf                                               1.62 MB
-			|-WEEK5 GTS231 Law and Technology.pdf                                               1.59 MB
-			|-WEEK6 GTS231 Law and Technology.pdf                                               1.11 MB
-			|-WEEK7 GTS231 Law and Technology.pdf                                               0.82 MB
-			|-WEEK8 GTS231 Law and Technology.pdf                                               0.88 MB
-			|-WEEK9 GTS231 Law and Technology.pdf                                               0.87 MB
-		|-ITS201                                                                                34.33 MB
-			|-0-Intro-1-2021.pdf                                                                1.67 MB
-			|-1A-Logic.pdf                                                                      0.84 MB
-			|-1B-Logic.pdf                                                                      10.92 MB
-			|-2A-Proof.pdf                                                                      1.67 MB
-			|-2B-Proof.pdf                                                                      0.59 MB
-			|-2C-Proof.pdf                                                                      1.21 MB
-			|-3A-Set.pdf                                                                        0.94 MB
-			|-3B-Relation.pdf                                                                   1.21 MB
-			|-3C-Relation.pdf                                                                   0.27 MB
-			|-3D-Function.pdf                                                                   0.27 MB
-			|-3E-Supplement.pdf                                                                 0.25 MB
-			|-4A-Algorithms.pdf                                                                 1.44 MB
-			|-4B-Algorithms.pdf                                                                 0.52 MB
-			|-4C-Algorithms.pdf                                                                 0.85 MB
-			|-5A-Counting.pdf                                                                   0.78 MB
-			|-5B-Counting.pdf                                                                   1.25 MB
-			|-5C-Counting.pdf                                                                   0.66 MB
-			|-6A-Recurrence.pdf                                                                 0.97 MB
-			|-6B-Recurrence.pdf                                                                 0.80 MB
-			|-6C-Recurrence.pdf                                                                 0.64 MB
-			|-8-FS-Turing.pdf                                                                   1.13 MB
-			|-HW-A-Logic.pdf                                                                    0.17 MB
-			|-HW-B-Set.pdf                                                                      0.16 MB
-			|-HW-C-BigO.pdf                                                                     0.13 MB
-			|-HW-D-Counting.pdf                                                                 0.16 MB
-			|-HW-E-Recur.pdf                                                                    0.12 MB
-			|-HW-F-FSA-TM.pdf                                                                   0.12 MB
-			|-ITS201-Final21-Part1.pdf                                                          0.61 MB
-			|-ITS201-Final21-Part2-Methika6322774462.pdf                                        0.46 MB
-			|-ITS201-InClass-1.pdf                                                              0.28 MB
-			|-ITS201-InClass-2 _6322774462_methika-aungkurboribhun.pdf                          0.33 MB
-			|-ITS201-InClass-36322774462Methika.pdf                                             0.19 MB
-			|-ITS201-InClass-5-MethikaAungkurboribhun-6322774462.pdf                            0.26 MB
-			|-ITS201-Midterm21-Part1 MethikaAungkurboribhun6322774462.pdf                       0.29 MB
-			|-ITS201-Midterm21-Part2methika6322774462.pdf                                       0.44 MB
-			|-ITS201-Midterm21-Part3MethikaA6322774462.pdf                                      0.33 MB
-			|-Methika-6322774462-ITS201-InClass-4.pdf                                           0.38 MB
-			|-SOL-A-Logic.pdf                                                                   0.19 MB
-			|-SOL-B-Set.pdf                                                                     0.21 MB
-			|-SOL-C-BigO.pdf                                                                    0.16 MB
-			|-SOL-D-Counting.pdf                                                                0.17 MB
-			|-SOL-E-Recur.pdf                                                                   0.14 MB
-			|-SOL-F-FSA-TM.pdf                                                                  0.14 MB
-		|-ITS221                                                                                35.56 MB
-			|-6322774462MethikaITS221Final.pdf                                                  6.13 MB
-			|-DES221-2021 Exercises-SecondHalf.pdf                                              4.38 MB
-			|-DES221-2021 First Half Exercises.pdf                                              2.97 MB
-			|-DES221-2021 First Half Lecture Note.pdf                                           16.30 MB
-			|-DES221-2021 Second Half Lecture Note.pdf                                          4.32 MB
-			|-Hw 3 Searching in different Data structures-Methika6322774462.pdf                 0.62 MB
-			|-Hw 4 Finding Maxinum values in different Data structures.pdf                      0.35 MB
-			|-Hw1 Array Analysis.pdf                                                            0.48 MB
-		|-ITS231                                                                                2.51 MB
-			|-Lab 0-2021 Intro to Java and  looping.pdf                                         0.62 MB
-			|-Lab1-2020 Recursion and Array.pdf                                                 0.34 MB
-			|-Lab2-2021 Hashing.pdf                                                             0.25 MB
-			|-Lab2-2021 Singly Linked List.pdf                                                  0.65 MB
-			|-LabOrder.pdf                                                                      0.63 MB
-	|-Year2Sem1.rar                                                                             150.05 MB
+|-Year2Sem1                                                                                       339.00 MB
+	|-Year2Sem1                                                                                       188.95 MB
+		|-CSS224                                                                                          15.63 MB
+			|-01 course outline.pdf                                                                           0.22 MB
+			|-02 lecture01 2021.pdf                                                                           1.41 MB
+			|-03 lecture02 2021.pdf                                                                           1.88 MB
+			|-04 lecture03 2021.pdf                                                                           1.95 MB
+			|-05 lecture04 2021.pdf                                                                           1.83 MB
+			|-06 lecture05 2021.pdf                                                                           2.50 MB
+			|-07 lecture06 2021.pdf                                                                           2.80 MB
+			|-08 lecture07 2021.pdf                                                                           0.97 MB
+			|-09 lecture08 2021.pdf                                                                           0.44 MB
+			|-CSS224 1A.pdf                                                                                   1.40 MB
+			|-score assign3.pdf                                                                               0.09 MB
+			|-score CSS224.pdf                                                                                0.15 MB
+		|-EES371                                                                                          51.39 MB
+			|-6322774462_Methika_Aungkurboribhun _EES 371 Quiz 04C.pdf                                        0.45 MB
+			|-6322774462_Methika_Aungkurboribhun.pdf                                                          0.45 MB
+			|-6322774462_Methika_Aungkurboribhun_EES 371 Quiz 03C.pdf                                         0.40 MB
+			|-EES 371 Boolean Algebraic Laws.pdf                                                              0.11 MB
+			|-EES 371 Quiz 06_Methika_Aungkurboribhun.pdf                                                     0.27 MB
+			|-EES 371-02 Exercise.pdf                                                                         0.22 MB
+			|-EES 371-02 Numbering Systems.pdf                                                                3.79 MB
+			|-EES 371-03 Logic Gates.pdf                                                                      3.31 MB
+			|-EES 371-04 Combinational Logic Circuits.pdf                                                     4.04 MB
+			|-EES 371-05 K-Map.pdf                                                                            2.42 MB
+			|-EES 371-06 Digital Integrated Circuits.pdf                                                      1.82 MB
+			|-EES 371-07 Applications of Combinational Logic.pdf                                              5.47 MB
+			|-EES 371-08 Latches and Flip-Flops.pdf                                                           3.71 MB
+			|-EES 371-09 Sequential Logic (Analysis).pdf                                                      2.04 MB
+			|-EES 371-10 Sequential Logic (Design).pdf                                                        3.66 MB
+			|-EES 371-11 Binary Counters (Final Until This Part).pdf                                          1.49 MB
+			|-EES 371-12 Memory and Storage.pdf                                                               2.68 MB
+			|-EES 371-13 PLD and VHDL.pdf                                                                     5.94 MB
+			|-EES 371-14 Analog-Digital Conversions.pdf                                                       6.99 MB
+			|-Methika EES 371-10 Exercise.pdf                                                                 0.71 MB
+			|-Methika-Aungkurboribhun-6322774462-EES 371 Quiz 09A.pdf                                         0.50 MB
+			|-Methika-Aungkurboribhun-6322774462-EES 371 Quiz 10B.pdf                                         0.26 MB
+			|-Methika_Aungkurboribhun_6322774462-EES 371 Quiz 08B.pdf                                         0.50 MB
+			|-Methika_Aungkurboribhun_6322774462_EES 371 Quiz 07C.pdf                                         0.17 MB
+		|-GTS210                                                                                          30.99 MB
+			|-Gts210 Final Summary.pdf                                                                        5.82 MB
+			|-L10_M3_2021.pdf                                                                                 1.03 MB
+			|-L11_M3_2021.pdf                                                                                 1.01 MB
+			|-L12_M3_2021.pdf                                                                                 1.36 MB
+			|-L13_M3_2021.pdf                                                                                 0.51 MB
+			|-L1_M3_2021.pdf                                                                                  0.79 MB
+			|-L2_M3_2021.pdf                                                                                  0.70 MB
+			|-L3_M3_2021.pdf                                                                                  0.70 MB
+			|-L4_M3_2021.pdf                                                                                  0.52 MB
+			|-L5_M3_2021.pdf                                                                                  0.60 MB
+			|-L6_M3_2021.pdf                                                                                  3.02 MB
+			|-L7_M3_2021.pdf                                                                                  0.90 MB
+			|-L8_M3_2021.pdf                                                                                  0.94 MB
+			|-L9_M3_2021.pdf                                                                                  0.83 MB
+			|-Practice_Final_Exam_Paper.pdf                                                                   12.27 MB
+		|-GTS231                                                                                          18.54 MB
+			|-WEEK1 GTS231 Law and Technology.pdf                                                             1.26 MB
+			|-WEEK10 GTS231 Law and Technology.pdf                                                            3.32 MB
+			|-WEEK11 GTS231 Law and Technology.pdf                                                            0.81 MB
+			|-WEEK12 GTS231 Law and Technology.pdf                                                            0.64 MB
+			|-WEEK15 GTS231 Law and Technology.pdf                                                            2.26 MB
+			|-WEEK2 GTS231 Law and Technology.pdf                                                             0.86 MB
+			|-WEEK3 GTS231 Law and Technology.pdf                                                             2.48 MB
+			|-WEEK4 GTS231 Law and Technology.pdf                                                             1.62 MB
+			|-WEEK5 GTS231 Law and Technology.pdf                                                             1.59 MB
+			|-WEEK6 GTS231 Law and Technology.pdf                                                             1.11 MB
+			|-WEEK7 GTS231 Law and Technology.pdf                                                             0.82 MB
+			|-WEEK8 GTS231 Law and Technology.pdf                                                             0.88 MB
+			|-WEEK9 GTS231 Law and Technology.pdf                                                             0.87 MB
+		|-ITS201                                                                                          34.33 MB
+			|-0-Intro-1-2021.pdf                                                                              1.67 MB
+			|-1A-Logic.pdf                                                                                    0.84 MB
+			|-1B-Logic.pdf                                                                                    10.92 MB
+			|-2A-Proof.pdf                                                                                    1.67 MB
+			|-2B-Proof.pdf                                                                                    0.59 MB
+			|-2C-Proof.pdf                                                                                    1.21 MB
+			|-3A-Set.pdf                                                                                      0.94 MB
+			|-3B-Relation.pdf                                                                                 1.21 MB
+			|-3C-Relation.pdf                                                                                 0.27 MB
+			|-3D-Function.pdf                                                                                 0.27 MB
+			|-3E-Supplement.pdf                                                                               0.25 MB
+			|-4A-Algorithms.pdf                                                                               1.44 MB
+			|-4B-Algorithms.pdf                                                                               0.52 MB
+			|-4C-Algorithms.pdf                                                                               0.85 MB
+			|-5A-Counting.pdf                                                                                 0.78 MB
+			|-5B-Counting.pdf                                                                                 1.25 MB
+			|-5C-Counting.pdf                                                                                 0.66 MB
+			|-6A-Recurrence.pdf                                                                               0.97 MB
+			|-6B-Recurrence.pdf                                                                               0.80 MB
+			|-6C-Recurrence.pdf                                                                               0.64 MB
+			|-8-FS-Turing.pdf                                                                                 1.13 MB
+			|-HW-A-Logic.pdf                                                                                  0.17 MB
+			|-HW-B-Set.pdf                                                                                    0.16 MB
+			|-HW-C-BigO.pdf                                                                                   0.13 MB
+			|-HW-D-Counting.pdf                                                                               0.16 MB
+			|-HW-E-Recur.pdf                                                                                  0.12 MB
+			|-HW-F-FSA-TM.pdf                                                                                 0.12 MB
+			|-ITS201-Final21-Part1.pdf                                                                        0.61 MB
+			|-ITS201-Final21-Part2-Methika6322774462.pdf                                                      0.46 MB
+			|-ITS201-InClass-1.pdf                                                                            0.28 MB
+			|-ITS201-InClass-2 _6322774462_methika-aungkurboribhun.pdf                                        0.33 MB
+			|-ITS201-InClass-36322774462Methika.pdf                                                           0.19 MB
+			|-ITS201-InClass-5-MethikaAungkurboribhun-6322774462.pdf                                          0.26 MB
+			|-ITS201-Midterm21-Part1 MethikaAungkurboribhun6322774462.pdf                                     0.29 MB
+			|-ITS201-Midterm21-Part2methika6322774462.pdf                                                     0.44 MB
+			|-ITS201-Midterm21-Part3MethikaA6322774462.pdf                                                    0.33 MB
+			|-Methika-6322774462-ITS201-InClass-4.pdf                                                         0.38 MB
+			|-SOL-A-Logic.pdf                                                                                 0.19 MB
+			|-SOL-B-Set.pdf                                                                                   0.21 MB
+			|-SOL-C-BigO.pdf                                                                                  0.16 MB
+			|-SOL-D-Counting.pdf                                                                              0.17 MB
+			|-SOL-E-Recur.pdf                                                                                 0.14 MB
+			|-SOL-F-FSA-TM.pdf                                                                                0.14 MB
+		|-ITS221                                                                                          35.56 MB
+			|-6322774462MethikaITS221Final.pdf                                                                6.13 MB
+			|-DES221-2021 Exercises-SecondHalf.pdf                                                            4.38 MB
+			|-DES221-2021 First Half Exercises.pdf                                                            2.97 MB
+			|-DES221-2021 First Half Lecture Note.pdf                                                         16.30 MB
+			|-DES221-2021 Second Half Lecture Note.pdf                                                        4.32 MB
+			|-Hw 3 Searching in different Data structures-Methika6322774462.pdf                               0.62 MB
+			|-Hw 4 Finding Maxinum values in different Data structures.pdf                                    0.35 MB
+			|-Hw1 Array Analysis.pdf                                                                          0.48 MB
+		|-ITS231                                                                                          2.51 MB
+			|-Lab 0-2021 Intro to Java and  looping.pdf                                                       0.62 MB
+			|-Lab1-2020 Recursion and Array.pdf                                                               0.34 MB
+			|-Lab2-2021 Hashing.pdf                                                                           0.25 MB
+			|-Lab2-2021 Singly Linked List.pdf                                                                0.65 MB
+			|-LabOrder.pdf                                                                                    0.63 MB
+	|-Year2Sem1.rar                                                                                   150.05 MB
