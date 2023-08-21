@@ -5,6 +5,7 @@ from PathProperties import PathProperties,PathType, PathUnit
 from tqdm import tqdm
 from timeit import Timer
 from CustomError import InvalidUrlException
+import math
 
 # --------------------------------------------------
 BYTE_TO_MEGABYTE = 1.0/(1024 * 1024)
@@ -27,22 +28,22 @@ def set_pathinfo(path: Path, depth: int, ) -> None:
         __add_pathinfo(fileprop)
 
 def __get_directory_data(pathfile: Path, pos: int, depth: int) -> Tuple[List[PathProperties],int]:
-    size = 0.0
+    directory_size = 0.0000000000
     pathfile = Path(pathfile)
     path_properties_list:List[PathProperties] = []
     allfilepath = list(pathfile.glob("*"))
     for pathfile in tqdm(allfilepath):
         pathprop = __get_path_properties(pathfile,pos,depth)
         path_properties_list.extend(pathprop)
-        size += pathprop[0].get_size() * BYTE_TO_MEGABYTE
-    return (path_properties_list,size)
+        directory_size += pathprop[0].get_size() 
+    return (path_properties_list,directory_size)
 
 def __get_directory_size_depth_reach(pathfile: str)->float:
     size = 0.0
     pathfile = Path(pathfile)
     for path, dirs, files in os.walk(pathfile):
         for file in files:
-            size += os.path.getsize(path/file) * BYTE_TO_MEGABYTE
+            size += os.path.getsize(path/file)
     return size
         
 def __add_pathinfo(pathPropertieslist: List[PathProperties])-> None:
@@ -61,13 +62,11 @@ def __get_path_properties(pathfile: Path, pos: int, depth: int) -> List[PathProp
         return [PathProperties(pathfile, size_of_file, PathUnit.MEGA, PathType.FILE)]
     elif pos < depth:
         path_properties_list, directory_size = __get_directory_data(pathfile,pos+1,depth)
-        size += directory_size
-        pathprop = [PathProperties(pathfile,directory_size, PathUnit.MEGA,PathType.DIRECTORY)]
+        pathprop = [PathProperties(pathfile,directory_size , PathUnit.MEGA,PathType.DIRECTORY)]
         pathprop.extend(path_properties_list)
         return pathprop
     else:
         directory_size = __get_directory_size_depth_reach(pathfile)
-        size += directory_size
         return [PathProperties(pathfile,directory_size, PathUnit.MEGA, PathType.DIRECTORY)]
         
 def set_title(pathfile: str, size: float) -> None:
