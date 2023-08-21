@@ -2,6 +2,8 @@ from pathlib import Path
 import os
 from typing import List,Tuple, Dict
 from FileProperties import FileProperties
+from tqdm import tqdm
+from timeit import Timer
 
 #--------------------------------------------------
 BYTE_TO_MEGABYTE = 1.0/(1024 * 1024)
@@ -17,7 +19,7 @@ def set_pathinfo(paths: Path) -> None:
         raise OSError("file or directory not exist. Please check the path again")
     
     allfilepath = list(filepath.glob("*"))
-    for pathfile in allfilepath:
+    for pathfile in tqdm(allfilepath):
         if add_pathinfo(pathfile=pathfile):
             continue
         set_pathinfo(pathfile)
@@ -52,7 +54,7 @@ def get_file(path: Path) -> FileProperties:
 
 
 def write_log() -> None:
-    with open("log.txt" , 'w') as f:
+    with open("log.txt" , 'w' , encoding="utf-8") as f:
         f.write(pathinfo)
 
 
@@ -71,7 +73,6 @@ def run() -> None:
     pathinfo = """"""
     set_pathinfo(path_to_check)
     add_title(path_to_check,size)
-    print(pathinfo)
     write_log()
     
     

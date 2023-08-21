@@ -18,7 +18,7 @@ class FileProperties:
         spacebet = 93 - self.pos * 4
         spacefront = "\t" * self.pos + "|-"
  
-        return  f"{spacefront}{self.get_name():<{spacebet}} {self.get_size():08.4f} MB\n"
+        return  f"{spacefront}{self.get_name():<{spacebet}} {self.get_size():.2f} MB\n"
 
     def get_name(self) -> str:
         return self.__name
