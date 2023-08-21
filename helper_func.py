@@ -43,7 +43,8 @@ def __get_directory_size_depth_reach(pathfile: str)->float:
     pathfile = Path(pathfile)
     for path, dirs, files in os.walk(pathfile):
         for file in files:
-            size += os.path.getsize(path/file)
+            joined_path = os.path.join(path,file)
+            size += os.path.getsize(joined_path) * BYTE_TO_MEGABYTE
     return size
         
 def __add_pathinfo(pathPropertieslist: List[PathProperties])-> None:
@@ -91,11 +92,11 @@ def get_data_from_config(path: str = CONFIG_PATH) -> Tuple[str,int]:
         if not len(datas):
             raise ValueError("[ERROR]: Please specify the path for scanning")
         elif len(datas) == 1:
-            if not check_valid_path:
+            if not check_valid_path(path):
                 raise FileNotFoundError("[ERROR]: File or Directory not found")
-            path_to_check = datas[0]
         else:     
             depth = datas[1]
+        path_to_check = datas[0]
     return (path_to_check, depth)        
     
     
@@ -114,7 +115,7 @@ def run() -> None:
         write_log()
     except Exception as e:
         print(e)
-        print(e.with_traceback())
+        print(e.with_traceback(None))
         
     
     

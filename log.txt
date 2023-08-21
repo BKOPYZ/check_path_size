@@ -1,130 +1,394 @@
-|-Year2Sem1                                                                                       339.00 MB
-	|-Year2Sem1                                                                                       188.95 MB
-		|-CSS224                                                                                          15.63 MB
-			|-01 course outline.pdf                                                                           0.22 MB
-			|-02 lecture01 2021.pdf                                                                           1.41 MB
-			|-03 lecture02 2021.pdf                                                                           1.88 MB
-			|-04 lecture03 2021.pdf                                                                           1.95 MB
-			|-05 lecture04 2021.pdf                                                                           1.83 MB
-			|-06 lecture05 2021.pdf                                                                           2.50 MB
-			|-07 lecture06 2021.pdf                                                                           2.80 MB
-			|-08 lecture07 2021.pdf                                                                           0.97 MB
-			|-09 lecture08 2021.pdf                                                                           0.44 MB
-			|-CSS224 1A.pdf                                                                                   1.40 MB
-			|-score assign3.pdf                                                                               0.09 MB
-			|-score CSS224.pdf                                                                                0.15 MB
-		|-EES371                                                                                          51.39 MB
-			|-6322774462_Methika_Aungkurboribhun _EES 371 Quiz 04C.pdf                                        0.45 MB
-			|-6322774462_Methika_Aungkurboribhun.pdf                                                          0.45 MB
-			|-6322774462_Methika_Aungkurboribhun_EES 371 Quiz 03C.pdf                                         0.40 MB
-			|-EES 371 Boolean Algebraic Laws.pdf                                                              0.11 MB
-			|-EES 371 Quiz 06_Methika_Aungkurboribhun.pdf                                                     0.27 MB
-			|-EES 371-02 Exercise.pdf                                                                         0.22 MB
-			|-EES 371-02 Numbering Systems.pdf                                                                3.79 MB
-			|-EES 371-03 Logic Gates.pdf                                                                      3.31 MB
-			|-EES 371-04 Combinational Logic Circuits.pdf                                                     4.04 MB
-			|-EES 371-05 K-Map.pdf                                                                            2.42 MB
-			|-EES 371-06 Digital Integrated Circuits.pdf                                                      1.82 MB
-			|-EES 371-07 Applications of Combinational Logic.pdf                                              5.47 MB
-			|-EES 371-08 Latches and Flip-Flops.pdf                                                           3.71 MB
-			|-EES 371-09 Sequential Logic (Analysis).pdf                                                      2.04 MB
-			|-EES 371-10 Sequential Logic (Design).pdf                                                        3.66 MB
-			|-EES 371-11 Binary Counters (Final Until This Part).pdf                                          1.49 MB
-			|-EES 371-12 Memory and Storage.pdf                                                               2.68 MB
-			|-EES 371-13 PLD and VHDL.pdf                                                                     5.94 MB
-			|-EES 371-14 Analog-Digital Conversions.pdf                                                       6.99 MB
-			|-Methika EES 371-10 Exercise.pdf                                                                 0.71 MB
-			|-Methika-Aungkurboribhun-6322774462-EES 371 Quiz 09A.pdf                                         0.50 MB
-			|-Methika-Aungkurboribhun-6322774462-EES 371 Quiz 10B.pdf                                         0.26 MB
-			|-Methika_Aungkurboribhun_6322774462-EES 371 Quiz 08B.pdf                                         0.50 MB
-			|-Methika_Aungkurboribhun_6322774462_EES 371 Quiz 07C.pdf                                         0.17 MB
-		|-GTS210                                                                                          30.99 MB
-			|-Gts210 Final Summary.pdf                                                                        5.82 MB
-			|-L10_M3_2021.pdf                                                                                 1.03 MB
-			|-L11_M3_2021.pdf                                                                                 1.01 MB
-			|-L12_M3_2021.pdf                                                                                 1.36 MB
-			|-L13_M3_2021.pdf                                                                                 0.51 MB
-			|-L1_M3_2021.pdf                                                                                  0.79 MB
-			|-L2_M3_2021.pdf                                                                                  0.70 MB
-			|-L3_M3_2021.pdf                                                                                  0.70 MB
-			|-L4_M3_2021.pdf                                                                                  0.52 MB
-			|-L5_M3_2021.pdf                                                                                  0.60 MB
-			|-L6_M3_2021.pdf                                                                                  3.02 MB
-			|-L7_M3_2021.pdf                                                                                  0.90 MB
-			|-L8_M3_2021.pdf                                                                                  0.94 MB
-			|-L9_M3_2021.pdf                                                                                  0.83 MB
-			|-Practice_Final_Exam_Paper.pdf                                                                   12.27 MB
-		|-GTS231                                                                                          18.54 MB
-			|-WEEK1 GTS231 Law and Technology.pdf                                                             1.26 MB
-			|-WEEK10 GTS231 Law and Technology.pdf                                                            3.32 MB
-			|-WEEK11 GTS231 Law and Technology.pdf                                                            0.81 MB
-			|-WEEK12 GTS231 Law and Technology.pdf                                                            0.64 MB
-			|-WEEK15 GTS231 Law and Technology.pdf                                                            2.26 MB
-			|-WEEK2 GTS231 Law and Technology.pdf                                                             0.86 MB
-			|-WEEK3 GTS231 Law and Technology.pdf                                                             2.48 MB
-			|-WEEK4 GTS231 Law and Technology.pdf                                                             1.62 MB
-			|-WEEK5 GTS231 Law and Technology.pdf                                                             1.59 MB
-			|-WEEK6 GTS231 Law and Technology.pdf                                                             1.11 MB
-			|-WEEK7 GTS231 Law and Technology.pdf                                                             0.82 MB
-			|-WEEK8 GTS231 Law and Technology.pdf                                                             0.88 MB
-			|-WEEK9 GTS231 Law and Technology.pdf                                                             0.87 MB
-		|-ITS201                                                                                          34.33 MB
-			|-0-Intro-1-2021.pdf                                                                              1.67 MB
-			|-1A-Logic.pdf                                                                                    0.84 MB
-			|-1B-Logic.pdf                                                                                    10.92 MB
-			|-2A-Proof.pdf                                                                                    1.67 MB
-			|-2B-Proof.pdf                                                                                    0.59 MB
-			|-2C-Proof.pdf                                                                                    1.21 MB
-			|-3A-Set.pdf                                                                                      0.94 MB
-			|-3B-Relation.pdf                                                                                 1.21 MB
-			|-3C-Relation.pdf                                                                                 0.27 MB
-			|-3D-Function.pdf                                                                                 0.27 MB
-			|-3E-Supplement.pdf                                                                               0.25 MB
-			|-4A-Algorithms.pdf                                                                               1.44 MB
-			|-4B-Algorithms.pdf                                                                               0.52 MB
-			|-4C-Algorithms.pdf                                                                               0.85 MB
-			|-5A-Counting.pdf                                                                                 0.78 MB
-			|-5B-Counting.pdf                                                                                 1.25 MB
-			|-5C-Counting.pdf                                                                                 0.66 MB
-			|-6A-Recurrence.pdf                                                                               0.97 MB
-			|-6B-Recurrence.pdf                                                                               0.80 MB
-			|-6C-Recurrence.pdf                                                                               0.64 MB
-			|-8-FS-Turing.pdf                                                                                 1.13 MB
-			|-HW-A-Logic.pdf                                                                                  0.17 MB
-			|-HW-B-Set.pdf                                                                                    0.16 MB
-			|-HW-C-BigO.pdf                                                                                   0.13 MB
-			|-HW-D-Counting.pdf                                                                               0.16 MB
-			|-HW-E-Recur.pdf                                                                                  0.12 MB
-			|-HW-F-FSA-TM.pdf                                                                                 0.12 MB
-			|-ITS201-Final21-Part1.pdf                                                                        0.61 MB
-			|-ITS201-Final21-Part2-Methika6322774462.pdf                                                      0.46 MB
-			|-ITS201-InClass-1.pdf                                                                            0.28 MB
-			|-ITS201-InClass-2 _6322774462_methika-aungkurboribhun.pdf                                        0.33 MB
-			|-ITS201-InClass-36322774462Methika.pdf                                                           0.19 MB
-			|-ITS201-InClass-5-MethikaAungkurboribhun-6322774462.pdf                                          0.26 MB
-			|-ITS201-Midterm21-Part1 MethikaAungkurboribhun6322774462.pdf                                     0.29 MB
-			|-ITS201-Midterm21-Part2methika6322774462.pdf                                                     0.44 MB
-			|-ITS201-Midterm21-Part3MethikaA6322774462.pdf                                                    0.33 MB
-			|-Methika-6322774462-ITS201-InClass-4.pdf                                                         0.38 MB
-			|-SOL-A-Logic.pdf                                                                                 0.19 MB
-			|-SOL-B-Set.pdf                                                                                   0.21 MB
-			|-SOL-C-BigO.pdf                                                                                  0.16 MB
-			|-SOL-D-Counting.pdf                                                                              0.17 MB
-			|-SOL-E-Recur.pdf                                                                                 0.14 MB
-			|-SOL-F-FSA-TM.pdf                                                                                0.14 MB
-		|-ITS221                                                                                          35.56 MB
-			|-6322774462MethikaITS221Final.pdf                                                                6.13 MB
-			|-DES221-2021 Exercises-SecondHalf.pdf                                                            4.38 MB
-			|-DES221-2021 First Half Exercises.pdf                                                            2.97 MB
-			|-DES221-2021 First Half Lecture Note.pdf                                                         16.30 MB
-			|-DES221-2021 Second Half Lecture Note.pdf                                                        4.32 MB
-			|-Hw 3 Searching in different Data structures-Methika6322774462.pdf                               0.62 MB
-			|-Hw 4 Finding Maxinum values in different Data structures.pdf                                    0.35 MB
-			|-Hw1 Array Analysis.pdf                                                                          0.48 MB
-		|-ITS231                                                                                          2.51 MB
-			|-Lab 0-2021 Intro to Java and  looping.pdf                                                       0.62 MB
-			|-Lab1-2020 Recursion and Array.pdf                                                               0.34 MB
-			|-Lab2-2021 Hashing.pdf                                                                           0.25 MB
-			|-Lab2-2021 Singly Linked List.pdf                                                                0.65 MB
-			|-LabOrder.pdf                                                                                    0.63 MB
-	|-Year2Sem1.rar                                                                                   150.05 MB
+|-download                                                                                        12271.36 MB
+	|-13490 (1).pdf                                                                                   0.05 MB
+	|-13490 (2).pdf                                                                                   0.05 MB
+	|-13490.pdf                                                                                       0.05 MB
+	|-2016.1523_mh0116064enn_pdfweb_20170511095720 (1).pdf                                            0.29 MB
+	|-2016.1523_mh0116064enn_pdfweb_20170511095720.pdf                                                0.29 MB
+	|-2022n.zip                                                                                       64.99 MB
+	|-2023-6-20 (1).zip                                                                               3.70 MB
+	|-2023-6-20.zip                                                                                   3.97 MB
+	|-256501-154.zip                                                                                  8.64 MB
+	|-256501-155.zip                                                                                  9.04 MB
+	|-256507-1062.zip                                                                                 83.56 MB
+	|-256507-819.zip                                                                                  10.23 MB
+	|-256601-772.zip                                                                                  13.72 MB
+	|-256601-847.zip                                                                                  7.79 MB
+	|-256601-859.zip                                                                                  8.87 MB
+	|-286394338_137339632233488_8638744399616702327_n.jpg                                             0.05 MB
+	|-292007339_1115607962639273_864045699833326253_n.jpg                                             0.10 MB
+	|-292394729_720725652485239_6421902431292525518_n.jpg                                             0.16 MB
+	|-292551115_811891723154563_6685645166877379010_n.jpg                                             0.09 MB
+	|-295824618_786585045704597_2010174746025503231_n.jpg                                             0.22 MB
+	|-297284578_1250861772431915_1287682263798635669_n.jpg                                            0.31 MB
+	|-2_6522781929_Dechathron.zip                                                                     0.02 MB
+	|-4547-Article Text-12985-14816-10-20140903.pdf                                                   1.86 MB
+	|-4thKibo-RPC_GuidanceSession.pdf                                                                 20.57 MB
+	|-4thKibo-RPC_Guidebook (1).pdf                                                                   0.82 MB
+	|-4thKibo-RPC_Guidebook.pdf                                                                       0.97 MB
+	|-4thKibo-RPC_PGManual (1).pdf                                                                    1.82 MB
+	|-4thKibo-RPC_PGManual.pdf                                                                        1.82 MB
+	|-4thKibo-RPC_Rulebook (1).pdf                                                                    1.72 MB
+	|-4thKibo-RPC_Rulebook (2).pdf                                                                    1.73 MB
+	|-4thKibo-RPC_Rulebook.pdf                                                                        1.72 MB
+	|-5. สัญญาค้ำประกัน ทุนการศึกษา_2565_v0.2.pdf                                                     0.34 MB
+	|-531.79-desktop-win10-win11-64bit-international-dch-whql.exe                                     854.27 MB
+	|-6522781929.docx                                                                                 0.02 MB
+	|-6522781929.jpg                                                                                  0.15 MB
+	|-65227819291 (1).pdf                                                                             4.64 MB
+	|-65227819291 (2).pdf                                                                             0.50 MB
+	|-65227819291.pdf                                                                                 4.64 MB
+	|-account (1).txt                                                                                 0.00 MB
+	|-account.txt                                                                                     0.00 MB
+	|-adb (1).log                                                                                     0.34 MB
+	|-adb (2).log                                                                                     0.34 MB
+	|-adb.log                                                                                         0.34 MB
+	|-Amity_Park_Walkthrough_Version_0.7.3.pdf                                                        0.95 MB
+	|-Anaconda3-2022.05-Windows-x86_64.exe                                                            593.88 MB
+	|-android-studio                                                                                  1643.51 MB
+		|-bin                                                                                             133.54 MB
+		|-build.txt                                                                                       0.00 MB
+		|-gradle                                                                                          323.48 MB
+		|-jre                                                                                             135.99 MB
+		|-lib                                                                                             381.79 MB
+		|-license                                                                                         0.57 MB
+		|-LICENSE.txt                                                                                     0.01 MB
+		|-NOTICE.txt                                                                                      0.00 MB
+		|-plugins                                                                                         665.87 MB
+		|-uninstall.exe                                                                                   2.25 MB
+	|-android-studio-2022.2.1.18-windows.exe                                                          985.64 MB
+	|-android-studio-ide-183.5522156-windows.exe                                                      971.38 MB
+	|-app-debug (1).apk                                                                               131.03 MB
+	|-app-debug (2).apk                                                                               131.03 MB
+	|-app-debug (3).apk                                                                               131.05 MB
+	|-app-debug.apk                                                                                   131.03 MB
+	|-app-debug.apk_DebugImages (1)                                                                   1.42 MB
+		|-after                                                                                           0.44 MB
+		|-before                                                                                          0.55 MB
+		|-success                                                                                         0.44 MB
+	|-Aseprite-Script-Examples-master                                                                 0.02 MB
+		|-a.aseprite                                                                                      0.00 MB
+		|-charactor.aseprite                                                                              0.00 MB
+		|-Export Tags To Different Sprite Sheets.lua                                                      0.00 MB
+		|-Glass Floor.lua                                                                                 0.00 MB
+		|-LICENSE.txt                                                                                     0.00 MB
+		|-Move Cels.lua                                                                                   0.00 MB
+		|-Pack Similar Tiles.lua                                                                          0.00 MB
+		|-Random Palette.lua                                                                              0.00 MB
+		|-Random Pixels.lua                                                                               0.00 MB
+		|-README.md                                                                                       0.00 MB
+		|-Stack All Sprites in One.lua                                                                    0.00 MB
+		|-Stroke Outside Selection.lua                                                                    0.00 MB
+		|-Tiles to Layers.lua                                                                             0.00 MB
+		|-Touch Toolbar.lua                                                                               0.00 MB
+		|-Wizard Example.lua                                                                              0.00 MB
+	|-BirchEngine-master                                                                              2.98 MB
+		|-BirchEngine-master                                                                              2.98 MB
+	|-BLACKJACK.exe                                                                                   0.08 MB
+	|-BLACKJACK.jar                                                                                   0.02 MB
+	|-blender-3.3.1-windows-x64.msi                                                                   230.72 MB
+	|-button UI.png                                                                                   0.01 MB
+	|-buttons.ase                                                                                     0.00 MB
+	|-buttons.png                                                                                     0.00 MB
+	|-Cal1_-_Final_Prac (1).pdf                                                                       2.00 MB
+	|-Cal1_-_Final_Prac.pdf                                                                           2.00 MB
+	|-Cal1_-_Final_Prac_Ans.pdf                                                                       1.07 MB
+	|-CamScanner-07-15-2565-09.41.pdf                                                                 0.39 MB
+	|-checkup_Eng_2022.pdf                                                                            0.18 MB
+	|-checkup_Thai_2565 (1).pdf                                                                       0.25 MB
+	|-checkup_Thai_2565.pdf                                                                           0.25 MB
+	|-COLORALPHA 50 Menu Interface SFX                                                                10.33 MB
+		|-COLORALPHA 50 Menu Interface SFX                                                                10.33 MB
+	|-COM3D2 - Custom Order Maid 3D 2 (EN-JP) v1.33 (Uncensored).txt                                  0.00 MB
+	|-COPYBLACKJACK                                                                                   0.10 MB
+		|-.idea                                                                                           0.00 MB
+		|-BLACKJACK.iml                                                                                   0.00 MB
+		|-out                                                                                             0.04 MB
+		|-src                                                                                             0.05 MB
+	|-Cover page (1).pdf                                                                              3.06 MB
+	|-Cover page.pdf                                                                                  3.07 MB
+	|-cuda_12.2.0_windows_network.exe                                                                 29.35 MB
+	|-cudnn-windows-x86_64-8.9.2.26_cuda12-archive.zip                                                699.95 MB
+	|-DES102-2022 Exercises_Part1.pdf                                                                 0.96 MB
+	|-DES102-2022 Lecture_Part1.pdf                                                                   2.17 MB
+	|-DES102_FinalExam (1).pdf                                                                        2.52 MB
+	|-DES102_FinalExam.pdf                                                                            2.52 MB
+	|-dilo-world-font.zip                                                                             0.09 MB
+	|-Discord-MusicBot-master.zip                                                                     0.75 MB
+	|-Doc1.docx                                                                                       0.47 MB
+	|-docker-desktop-4.19.0-amd64.deb                                                                 480.72 MB
+	|-donut.blend                                                                                     0.84 MB
+	|-donut.blend1                                                                                    0.99 MB
+	|-dotnet-sdk-6.0.302-win-x64.exe                                                                  196.18 MB
+	|-download                                                                                        0.03 MB
+	|-download (1)                                                                                    0.03 MB
+	|-download (2)                                                                                    0.03 MB
+	|-EES371-2.2023-08-17_09_00-12_00_003.mp4                                                         178.16 MB
+	|-ELDEN.RING.Colosseum-Razor1911.torrent                                                          0.06 MB
+	|-endesga-32-32x.png                                                                              0.00 MB
+	|-endesga-32.ase                                                                                  0.00 MB
+	|-endesga-32.hex                                                                                  0.00 MB
+	|-EULA - READ ME.txt                                                                              0.00 MB
+	|-ezyzip.zip                                                                                      0.01 MB
+	|-File_ Cloud.Meadow.v0.1.2.6b.zip               ....exe                                          3.16 MB
+	|-Firefox Installer.exe                                                                           0.33 MB
+	|-forge-1.8.9-11.15.1.2318-1.8.9-installer.jar                                                    4.28 MB
+	|-forge-1.8.9-11.15.1.2318-1.8.9-installer.jar.log                                                0.00 MB
+	|-FRDASyYaAAEFYC1.jpg                                                                             0.18 MB
+	|-fxsound_setup.exe                                                                               47.74 MB
+	|-GameLauncher                                                                                    6898.47 MB
+		|-config.ini                                                                                      0.00 MB
+		|-filelist.txt                                                                                    0.00 MB
+		|-GameLauncher.exe                                                                                0.63 MB
+		|-GameLauncher_Data                                                                               444.18 MB
+		|-MonoBleedingEdge                                                                                6.14 MB
+		|-playersetting.ini                                                                               0.00 MB
+		|-ROO_PC                                                                                          6394.95 MB
+		|-UnityCrashHandler64.exe                                                                         1.03 MB
+		|-UnityPlayer.dll                                                                                 24.93 MB
+		|-version.txt                                                                                     0.00 MB
+		|-_localization                                                                                   0.02 MB
+		|-_temp                                                                                           0.03 MB
+		|-_updater                                                                                        26.58 MB
+	|-Git-2.38.1-64-bit.exe                                                                           50.89 MB
+	|-globe.png                                                                                       0.03 MB
+	|-Godot_v3.5.1-stable_win64.exe.zip                                                               36.36 MB
+	|-gradle-8.2-milestone-1-all.zip                                                                  183.82 MB
+	|-GREATS_Exam (1).pdf                                                                             0.12 MB
+	|-GREATS_Exam (2).pdf                                                                             0.11 MB
+	|-GREATS_Exam (3).pdf                                                                             0.11 MB
+	|-GREATS_Exam.pdf                                                                                 0.12 MB
+	|-Group-3_TU-103_Sec-2 (Presentation1) .pdf                                                       21.23 MB
+	|-Group-3_TU-103_Sec-2 (Presentation2).pdf                                                        21.81 MB
+	|-GTS231-3.2023-08-18_09_00-12_00_001.mp4                                                         153.23 MB
+	|-GTS231-3.2023-08-18_09_00-12_00_002.mp4                                                         174.63 MB
+	|-GTS231-3.2023-08-18_09_00-12_00_003.mp4                                                         132.92 MB
+	|-Happy-Chick-64bit-v1_5_4.ipa                                                                    113.38 MB
+	|-happychick.ipa                                                                                  113.37 MB
+	|-HashTable.java                                                                                  0.00 MB
+	|-Helios_LAB01_BankAccount                                                                        0.01 MB
+		|-.idea                                                                                           0.00 MB
+		|-6422771152_LAB01_BankAccount                                                                    0.01 MB
+	|-Helios_LAB01_BankAccount.zip                                                                    0.01 MB
+	|-human.png                                                                                       0.02 MB
+	|-iCloudSetup.exe                                                                                 153.68 MB
+	|-ideaIC-2022.3.exe                                                                               651.36 MB
+	|-image-from-rawpixel-id-6434795-original.png                                                     1.97 MB
+	|-imageedit_1_9629141032.jpg                                                                      0.81 MB
+	|-IMG_0155.JPG                                                                                    0.63 MB
+	|-IMG_9396.HEIC                                                                                   0.90 MB
+	|-IMG_9522.HEIC                                                                                   1.44 MB
+	|-IMG_9530.JPG                                                                                    0.29 MB
+	|-IMG_9831.jpg                                                                                    1.57 MB
+	|-Install_Win10_10063_02202023                                                                    4.96 MB
+		|-Install_Win10_10063_02202023.exe                                                                4.96 MB
+	|-Install_Win10_10063_02202023.zip                                                                4.78 MB
+	|-introqcqh-lab-1.zip                                                                             0.52 MB
+	|-introqcqh-lecture-notes-1.pdf                                                                   20.60 MB
+	|-IPM.docx                                                                                        0.28 MB
+	|-ITS100practicefinal.pdf                                                                         0.13 MB
+	|-its100s21final.pdf                                                                              1.73 MB
+	|-iTunes64Setup (1).exe                                                                           200.97 MB
+	|-iTunes64Setup.exe                                                                               200.97 MB
+	|-jackpot-machine.png                                                                             0.03 MB
+	|-japanese-print56.pal                                                                            0.00 MB
+	|-jdk-17.0.4_windows-x64_bin.exe                                                                  152.78 MB
+	|-jdk-18.0.2.1_windows-x64_bin.exe                                                                153.45 MB
+	|-jdk-8u202-windows-x64.exe                                                                       211.58 MB
+	|-Jeng_1.mp4                                                                                      0.56 MB
+	|-Jeng_2.mp4                                                                                      3.83 MB
+	|-jre-8u202-windows-x64.exe                                                                       73.70 MB
+	|-Judith_Butler.pdf                                                                               3.39 MB
+	|-K500-B94                                                                                        3.72 MB
+		|-K500-B94 有线版 8735驱动及升级软件                                                                        3.72 MB
+	|-K500-B94.rar                                                                                    2.29 MB
+	|-keepstreams_online_1168.exe                                                                     7.70 MB
+	|-KIBO (1).rar                                                                                    0.54 MB
+	|-KIBO.rar                                                                                        0.54 MB
+	|-KIBO_1.rar                                                                                      0.62 MB
+	|-krpc4_simulator.zip                                                                             1.51 MB
+	|-launch4j-3.50-win32.exe                                                                         8.42 MB
+	|-LoQOO.pdf                                                                                       7.37 MB
+	|-Lovepik_com-401129113-red-umbrella (1).png                                                      0.14 MB
+	|-Lovepik_com-401129113-red-umbrella.png                                                          0.14 MB
+	|-m5x7.ttf                                                                                        0.03 MB
+	|-m6x11.ttf                                                                                       0.01 MB
+	|-material_science_Tigerpalm.pdf                                                                  6.20 MB
+	|-message (1).txt                                                                                 0.00 MB
+	|-message.txt                                                                                     0.00 MB
+	|-mixkit-retro-arcade-game-over-470.wav                                                           0.51 MB
+	|-monogram.ttf                                                                                    0.01 MB
+	|-More Games Links V4.txt                                                                         0.00 MB
+	|-MSERT.exe                                                                                       119.83 MB
+	|-msys2-x86_64-20221216.exe                                                                       82.21 MB
+	|-MUST READ ME.txt                                                                                0.00 MB
+	|-MV Icons Keyboard                                                                               0.12 MB
+		|-Individual Icons                                                                                0.10 MB
+		|-MV Icons Keyboard - ALL.png                                                                     0.02 MB
+	|-mystic_woods_free_2.1                                                                           0.38 MB
+		|-Get the Premium Version!.url                                                                    0.00 MB
+		|-Rate This Pack!.url                                                                             0.00 MB
+		|-read_me.txt                                                                                     0.00 MB
+		|-sprites                                                                                         0.38 MB
+	|-N-399201.exe                                                                                    103.89 MB
+	|-node-v16.15.0-x64.msi                                                                           27.22 MB
+	|-Note_ZIL01.pdf                                                                                  1.78 MB
+	|-OBS-Studio-27.2.4-Full-Installer-x64.exe                                                        112.50 MB
+	|-OniLGN.png                                                                                      0.02 MB
+	|-paint.jar                                                                                       0.02 MB
+	|-palette                                                                                         0.00 MB
+		|-aap-64.hex                                                                                      0.00 MB
+		|-apollo.hex                                                                                      0.00 MB
+		|-endesga-32.hex                                                                                  0.00 MB
+		|-lospec500.hex                                                                                   0.00 MB
+		|-oil-6.hex                                                                                       0.00 MB
+		|-resurrect-64.hex                                                                                0.00 MB
+		|-sweetie-16.hex                                                                                  0.00 MB
+		|-vinik24.hex                                                                                     0.00 MB
+	|-parsec-windows.exe                                                                              2.74 MB
+	|-Path (1).xlsx                                                                                   0.01 MB
+	|-Path.xlsx                                                                                       0.01 MB
+	|-pcsx2-v1.6.0-windows-32bit-installer.exe                                                        6.85 MB
+	|-permalink (1).htm                                                                               0.54 MB
+	|-permalink.htm                                                                                   0.54 MB
+	|-pfbid0Eoxg6wHe4NTJW3hcjun4ALdnAr64YoMVgKWTHWz1Mti3h3NptCXKKK7aug8oKKWql.htm                     0.61 MB
+	|-Philosopher.pdf                                                                                 3.39 MB
+	|-pic free-20220514-234121.piskel                                                                 0.00 MB
+	|-Piskel-0.14.0                                                                                   113.51 MB
+		|-credits.html                                                                                    1.75 MB
+		|-d3dcompiler_47.dll                                                                              3.54 MB
+		|-ffmpeg.dll                                                                                      0.90 MB
+		|-icudtl.dat                                                                                      9.66 MB
+		|-libEGL.dll                                                                                      0.08 MB
+		|-libGLESv2.dll                                                                                   1.79 MB
+		|-locales                                                                                         17.86 MB
+		|-natives_blob.bin                                                                                0.32 MB
+		|-node.dll                                                                                        4.72 MB
+		|-nw.dll                                                                                          62.23 MB
+		|-nw_100_percent.pak                                                                              0.48 MB
+		|-nw_200_percent.pak                                                                              0.73 MB
+		|-nw_elf.dll                                                                                      0.40 MB
+		|-Piskel-0.14.0.exe                                                                               1.49 MB
+		|-resources.pak                                                                                   6.94 MB
+		|-snapshot_blob.bin                                                                               0.63 MB
+	|-Pixellet                                                                                        0.60 MB
+		|-IMPORTANT NOTICE.txt                                                                            0.01 MB
+		|-pixellet bold.ttf                                                                               0.06 MB
+		|-please read!.pdf                                                                                0.52 MB
+	|-pizza_steak_sushi.zip                                                                           15.01 MB
+	|-Planlab10.pdf                                                                                   0.71 MB
+	|-PowerPoint_slide__1.pdf                                                                         1.00 MB
+	|-Product Defects.ipynb                                                                           0.01 MB
+	|-Product Defects_Solution.ipynb                                                                  0.01 MB
+	|-profile.jpg                                                                                     0.27 MB
+	|-Project stage 2.pdf                                                                             30.72 MB
+	|-Project stage 3.pdf                                                                             0.11 MB
+	|-Project Team Code_ 2200307.docx                                                                 0.27 MB
+	|-Psychonauts.2.zip.torrent                                                                       2.25 MB
+	|-pycharm-community-2023.1.1.exe                                                                  403.25 MB
+	|-Ragnarok_Origin_0406 (1).exe                                                                    171.21 MB
+	|-Ragnarok_Origin_0406.exe                                                                        171.21 MB
+	|-Repack-Games.com.url                                                                            0.00 MB
+	|-Returnal.v2023.04.25.zip.torrent                                                                4.11 MB
+	|-RPGVXAce_RTP                                                                                    185.76 MB
+		|-RTP100                                                                                          185.76 MB
+	|-rufus-4.0.exe                                                                                   1.35 MB
+	|-ScienceDirect_articles_06Jul2023_18-47-09.581.zip                                               0.45 MB
+	|-score (1).xlsx                                                                                  0.01 MB
+	|-score.xlsx                                                                                      0.01 MB
+	|-SDL2-devel-2.26.2-VC                                                                            9.41 MB
+		|-SDL2-2.26.2                                                                                     9.41 MB
+	|-SDL2GAME                                                                                        13.85 MB
+		|-SDL2GAME                                                                                        13.85 MB
+	|-SDL2GAME (1).zip                                                                                3.76 MB
+	|-SDL2GAME.zip                                                                                    3.58 MB
+	|-SDL2_image-devel-2.6.2-mingw.tar.gz                                                             1.68 MB
+	|-SDL2_image-devel-2.6.2-VC.zip                                                                   0.88 MB
+	|-SDL2_mixer-devel-2.6.2-VC.zip                                                                   1.04 MB
+	|-SDL2_ttf-devel-2.20.1-VC.zip                                                                    1.49 MB
+	|-SFML-2.5.1-windows-vc15-64-bit.zip                                                              18.06 MB
+	|-Shelter_an_Apocalyptic_Tale_0.31_guide.pdf                                                      0.18 MB
+	|-Short_Note.pdf                                                                                  3.77 MB
+	|-SideloadlySetup64.exe                                                                           105.73 MB
+	|-SketchBook_8.7.1.0_Win64 (1).exe                                                                87.35 MB
+	|-SketchBook_8.7.1.0_Win64.exe                                                                    87.35 MB
+	|-SkyHanni-0.19.jar                                                                               11.79 MB
+	|-stateman                                                                                        0.90 MB
+		|-stateman                                                                                        0.90 MB
+	|-stateman.zip                                                                                    0.02 MB
+	|-Students (16).png                                                                               0.29 MB
+	|-sublime_text_build_4143_x64_setup.exe                                                           18.43 MB
+	|-Summary (1).pdf                                                                                 0.32 MB
+	|-Summary.pdf                                                                                     0.07 MB
+	|-S__44908569.jpg                                                                                 0.28 MB
+	|-Thai-oil-EIA-2.docx                                                                             0.02 MB
+	|-thailand (1).zip                                                                                0.70 MB
+	|-thailand (2).zip                                                                                0.71 MB
+	|-thailand.apk_20230730023434__results.zip                                                        0.05 MB
+	|-thailand.apk_20230813114630__results.zip                                                        0.05 MB
+	|-thailand.apk_20230813122955__results.zip                                                        0.05 MB
+	|-thailand.apk_20230814111153__results.zip                                                        0.05 MB
+	|-thailand.apk_20230814111205__results.zip                                                        0.05 MB
+	|-thailand.apk_20230814145332__results.zip                                                        0.05 MB
+	|-thailand.apk_20230814154912__results.zip                                                        0.05 MB
+	|-thailand.apk_DebugImages.zip                                                                    0.40 MB
+	|-thailand.zip                                                                                    0.70 MB
+	|-Tiled-1.9.2_Windows_x86_64.msi                                                                  20.58 MB
+	|-TLauncher-2.885-Installer-1.1.1.exe                                                             22.58 MB
+	|-TU01 (1).pdf                                                                                    0.57 MB
+	|-TU01.pdf                                                                                        0.50 MB
+	|-TU02 (1).pdf                                                                                    2.85 MB
+	|-TU02.pdf                                                                                        2.74 MB
+	|-TU03.pdf                                                                                        0.78 MB
+	|-TU104-P1-2200307-A-Dechathron.docx                                                              0.27 MB
+	|-Tweakdoor.mobileconfig                                                                          0.13 MB
+	|-txt.txt                                                                                         0.00 MB
+	|-UbisoftConnectInstaller.exe                                                                     261.39 MB
+	|-UnityHubSetup.exe                                                                               102.44 MB
+	|-untitled.blend                                                                                  0.81 MB
+	|-VencordInstaller.exe                                                                            9.72 MB
+	|-video_converter.exe                                                                             22.43 MB
+	|-VirtualBox-7.0.8-156879-Win.exe                                                                 105.50 MB
+	|-vlc-3.0.17.4-win64.exe                                                                          41.51 MB
+	|-watch.blend                                                                                     1.45 MB
+	|-watch.blend1                                                                                    1.02 MB
+	|-watch.stl                                                                                       0.49 MB
+	|-White Black Yellow Modern Construction Company Presentation Template.pdf                        21.07 MB
+	|-wingedseal mod pack                                                                             82.74 MB
+		|-5zig-Reborn-1.8.9-b251.jar                                                                      6.75 MB
+		|-AutoGG-4.1.3 (1.8.9).jar                                                                        0.04 MB
+		|-autotip                                                                                         0.11 MB
+		|-Autotip-3.0.1 [1.8-1.12.2].jar                                                                  0.14 MB
+		|-BazaarNotifier-1.6.1.jar                                                                        0.10 MB
+		|-CrashPatch-1.4.0.jar                                                                            0.14 MB
+		|-ctjs-2.2.0-1.8.9.jar                                                                            3.85 MB
+		|-Dungeon_Rooms-3.3.2.jar                                                                         6.54 MB
+		|-Hypixel Autocomplete-1.1 (1.8.9).jar                                                            0.04 MB
+		|-InGameAccountSwitcher-Forge-1.8-8.0.1.jar                                                       0.18 MB
+		|-noclosemychat-v1.0.jar                                                                          0.01 MB
+		|-NotEnoughUpdates-2.1.1-Alpha-17.1.jar                                                           22.82 MB
+		|-OptiFine_1.8.9_HD_U_M5.jar                                                                      2.47 MB
+		|-Patcher-1.8.5 (1.8.9).jar                                                                       0.67 MB
+		|-replaymod-1.8.9-2.6.10.jar                                                                      15.89 MB
+		|-Scrollable Tooltips-1.4 (1.8.9).jar                                                             0.04 MB
+		|-SkyblockAddons-1.7.0-for-MC-1.8.9.jar                                                           3.19 MB
+		|-Skytils-1.7.3.jar                                                                               19.67 MB
+		|-soopyv2forge-1.1.jar                                                                            0.02 MB
+		|-WaterSolver.jar                                                                                 0.05 MB
+		|-[1.8.9] Powns Ghost Liquid Fix.jar                                                              0.01 MB
+		|-[1.8.9] Sidebar Mod Revamp.jar                                                                  0.02 MB
+	|-wingedseal mod pack.zip                                                                         76.97 MB
+	|-x86_64-8.1.0-release-win32-seh-rt_v6-rev0.7z                                                    47.11 MB
+	|-XboxInstaller (1).exe                                                                           14.50 MB
+	|-XboxInstaller.exe                                                                               14.50 MB
+	|-xiaoji_1.5.4 (1).ipa                                                                            70.45 MB
+	|-xiaoji_1.5.4.ipa                                                                                70.45 MB
+	|-xp_rtp104e.exe                                                                                  21.93 MB
+	|-Year2Sem1 (1).zip                                                                               188.97 MB
+	|-การทดลองที่-09-อัตราการเกิดปฏิกิริยา (1).pdf                                                    1.43 MB
+	|-การทดลองที่-09-อัตราการเกิดปฏิกิริยา.pdf                                                        1.04 MB
+	|-กำหนดการทำสัญญา.pdf                                                                             0.04 MB
+	|-คำแนะนำ การทำสัญญาเภสัชศาสตร์.pdf                                                               0.17 MB
+	|-คุโรมาตี้ โรงเรียนคนบวม.rar                                                                     347.26 MB
+	|-ตัวอย่างสัญญานักศึกษา.pdf                                                                       4.74 MB
+	|-วิธีการเรียงเอกสาร.pdf                                                                          0.04 MB
+	|-สัญญานักศึกษาเภสัชฯ ปี 2564-65.pdf                                                              0.17 MB
