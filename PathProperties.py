@@ -1,9 +1,13 @@
 from enum import Enum
 
+#TODO: fix the bug that happen from assigning the pathunit and convert the size before calculate the size of the directory
+
 class PathUnit(Enum):
-    KILO = 0
-    MEGA = 1
-    GIGA = 2
+    BYTE = 0
+    KILO = 1
+    MEGA = 2
+    GIGA = 3
+    
 
 class PathType(Enum):
     FILE =0
@@ -11,25 +15,39 @@ class PathType(Enum):
     UNKNOWN =2
 
 class PathProperties:
-
+    BYTE_TO_KILOBYTE = 1.0/1024
+    BYTE_TO_MEGABYTE = 1.0/(1024 ** 2)
+    BYTE_TO_GIGABYTE = 1.0/(1024 ** 3)
     smallestindex = None;
     # next time will do the file and folder count the check the similarity next time
-    def __init__(self, path: str, size , pathunit: PathUnit, pathtype: PathType = PathType.UNKNOWN ):
+    def __init__(self, path: str, size: float, pathunit: PathUnit, pathtype: PathType = PathType.UNKNOWN ):
+        self.type = pathtype
+        self.unit = pathunit
         self.__path = path
         self.__name = self.__set_name(path)
-        self.__size = size
+        self.__size = self.__set_size(size)
         self.parent = False # change later
         self.child = False # change later
         self.has_child = False # change later
-        self.pos = self.__get_pos()
-        self.type = pathtype
-        self.unit = pathunit
+        self.pos = self.__set_pos(path)
+        
         
     def __call__(self) -> str:
         spacebet = 95
         spacefront = "\t" * self.pos + "|-"
- 
-        return  f"{spacefront}{self.get_name():<{spacebet}} {self.get_size():.2f} MB\n"
+        suffix = self.suffix_ended()
+        return  f"{spacefront}{self.get_name():<{spacebet}} {self.get_size():.2f} {suffix}\n"
+
+    def suffix_ended(self)->str:
+        match self.unit:
+            case PathUnit.KILO:
+                return "KB"
+            case PathUnit.MEGA:
+                return "MB"
+            case PathUnit.GIGA:
+                return "GB"
+            case PathUnit.BYTE:
+                return "B"
 
     def get_name(self) -> str:
         return self.__name
@@ -43,10 +61,26 @@ class PathProperties:
     def __set_name(self, path:str) -> str:
         splited_file = str(path).split("\\")
         name = splited_file[-1] if not splited_file[-1].isspace() else splited_file[-2]
+        if len(name) >= 20:
+            name = name[:20] + "..."
         return name
     
-    def __get_pos(self) -> int:
-        return len(str(self.get_path()).split("\\")) - self.smallestindex
+    def __set_size(self, size: float) -> float:
+        if size > 1000000000 : 
+            self.unit = PathUnit.GIGA
+            return size * PathProperties.BYTE_TO_GIGABYTE
+        elif size > 1000000:
+            self.unit = PathUnit.MEGA
+            return size * PathProperties.BYTE_TO_MEGABYTE
+        elif size > 1000:
+            self.unit = PathUnit.KILO
+            return size * PathProperties.BYTE_TO_KILOBYTE
+        else:
+            return size 
+        
+    
+    def __set_pos(self, path: str) -> int:
+        return len(str(path).split("\\")) - self.smallestindex
     
     @classmethod
     def set_smallestindex(cls,path: str):
