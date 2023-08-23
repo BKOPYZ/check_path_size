@@ -4,10 +4,12 @@ from pathlib import Path
 
 
 class PathUnit(Enum):
+    UNSIGNED = 4
     BYTE = 3
     KILO = 2
     MEGA = 1
     GIGA = 0
+    
 
 
 class PathType(Enum):
@@ -32,7 +34,8 @@ class PathProperties:
         self.__name = self.__set_name(path)
         self.__size = self.__set_size(size)
 
-    def __call__(self) -> str:
+    def __call__(self, unit: PathUnit) -> str:
+        if self.unit.value > unit.value: return ""
         spacebet = 95 + 3-len(str(floor(self.get_size())))
         spacefront = "\t" * self.pos + \
             ("┗╸" if self.type == PathType.TITLE else "┣╸")

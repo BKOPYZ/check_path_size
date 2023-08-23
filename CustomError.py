@@ -1,5 +1,5 @@
 class InvalidPathException(ValueError):
     pass
 
-class PathNotValid(ValueError):
+class InvalidUnitException(ValueError):
     pass
