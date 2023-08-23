@@ -1,18 +1,19 @@
 from enum import Enum
+from math import floor
 
 #TODO: fix the bug that happen from assigning the pathunit and convert the size before calculate the size of the directory
 
 class PathUnit(Enum):
-    BYTE = 0
-    KILO = 1
-    MEGA = 2
-    GIGA = 3
+    BYTE = 3
+    KILO = 2
+    MEGA = 1
+    GIGA = 0
     
 
 class PathType(Enum):
     FILE =0
     DIRECTORY = 1 
-    UNKNOWN =2
+    TITLE =2
 
 class PathProperties:
     BYTE_TO_KILOBYTE = 1.0/1024
@@ -20,21 +21,19 @@ class PathProperties:
     BYTE_TO_GIGABYTE = 1.0/(1024 ** 3)
     smallestindex = None;
     # next time will do the file and folder count the check the similarity next time
-    def __init__(self, path: str, size: float, pathunit: PathUnit, pathtype: PathType = PathType.UNKNOWN ):
+    def __init__(self, path: str, size: float, pathtype: PathType = PathType.TITLE):
+        self.unit = PathUnit.BYTE
         self.type = pathtype
-        self.unit = pathunit
+        self.pos = self.__set_pos(path)
         self.__path = path
+        self.__uncalculated_size = size
         self.__name = self.__set_name(path)
         self.__size = self.__set_size(size)
-        self.parent = False # change later
-        self.child = False # change later
-        self.has_child = False # change later
-        self.pos = self.__set_pos(path)
         
         
     def __call__(self) -> str:
-        spacebet = 95
-        spacefront = "\t" * self.pos + "|-"
+        spacebet = 95 + 3-len(str(floor(self.get_size())))
+        spacefront = "\t" * self.pos + ("┗╸" if self.type == PathType.TITLE else "┣╸" )
         suffix = self.suffix_ended()
         return  f"{spacefront}{self.get_name():<{spacebet}} {self.get_size():.2f} {suffix}\n"
 
@@ -54,6 +53,9 @@ class PathProperties:
     
     def get_size(self) -> float:
         return self.__size
+    
+    def get_uncalculated_size(self)->float:
+        return self.__uncalculated_size
     
     def get_path(self) -> str:
         return self.__path
@@ -78,10 +80,9 @@ class PathProperties:
         else:
             return size 
         
-    
     def __set_pos(self, path: str) -> int:
         return len(str(path).split("\\")) - self.smallestindex
-    
+     
     @classmethod
     def set_smallestindex(cls,path: str):
         cls.smallestindex = len(path.split('\\'))
