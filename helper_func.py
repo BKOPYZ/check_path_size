@@ -6,6 +6,7 @@ from tqdm import tqdm
 from timeit import Timer
 from CustomError import InvalidUrlException 
 import math
+import sys
 
 # --------------------------------------------------
 CONFIG_PATH = "config.txt"
@@ -23,7 +24,7 @@ def set_pathinfo(path: Path, depth: int, ) -> None:
         __add_pathinfo(fileprop)
 
 def __get_directory_data(pathfile: Path, pos: int, depth: int) -> Tuple[List[PathProperties],int]:
-    directory_size = 0.0000000000
+    directory_size = 0.0
     pathfile = Path(pathfile)
     path_properties_list:List[PathProperties] = []
     allfilepath = list(pathfile.glob("*"))
@@ -72,7 +73,7 @@ def set_title(pathfile: str, size: float) -> None:
     pathinfo = fileTitle() + pathinfo
 
 def write_log(path:str) -> None:
-    with open(".\log\log_" + path.split("\\")[-1]+ ".txt", 'w', encoding="utf-8") as f:
+    with open(path, 'w', encoding="utf-8") as f:
         f.write(pathinfo)
 
 
@@ -96,14 +97,29 @@ def get_data_from_config(path: str = CONFIG_PATH) -> Tuple[str,int]:
     return (path_to_check, depth)
 
 def check_path_log(path:str)->bool:
-    path = ".\log\log_" + path.split("\\")[-1] +".txt"
     if os.path.isfile(path):
         return True;
     return False
     
 def edit_path_log(path:str)->str:
-    suffix_num = 0 if path.split("\\")[-1][-1].isalpha() else int(path.split("\\")[-1][-1]) +1
+    if platform_is_window():
+        suffix_num = 0 if path.split("\\")[-1].split('.')[0][-1].isalpha() else int(path.split("\\")[-1].split(".")[0][-1]) +1
+    else:
+        suffix_num = 0 if path.split("/")[-1].split('.')[0][-1].isalpha() else int(path.split("/")[-1].split(".")[0][-1]) +1
+    while(check_path_log(path+str(suffix_num))):
+        suffix_num+=1
     return path + str(suffix_num)
+
+def norm_path(path:str)->str:
+    return path.replace("/","\\")
+
+def platform_is_window()->bool:
+    return sys.platform == "Windows"
+
+def get_path_log(path:str)->str:
+    if platform_is_window():
+        return ".\log\log_" + path.split("\\")[-1] + ".txt"
+    return "./log/log_" + path.split("\\")[-1] + ".txt"
 
 def run() -> None:
     global size, pathinfo
@@ -112,7 +128,7 @@ def run() -> None:
     try:
         path_to_check, depth = get_data_from_config()
         depth = int(depth)
-        path = path_to_check
+        path = get_path_log(norm_path(path_to_check))
         if check_path_log(path):
             while((ans := input("Do you want to replace the file that already exist? (Y/n): ").lower()) not in ['y','n']): pass
             if ans == "n":

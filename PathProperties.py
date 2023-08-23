@@ -61,7 +61,7 @@ class PathProperties:
         return self.__path
     
     def __set_name(self, path:str) -> str:
-        splited_file = str(path).split("\\")
+        splited_file = str(path).replace("/","\\").split("\\")
         name = splited_file[-1] if not splited_file[-1].isspace() else splited_file[-2]
         if len(name) >= 20:
             name = name[:20] + "..."
