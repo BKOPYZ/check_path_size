@@ -1,4 +1,4 @@
-class InvalidUrlException(ValueError):
+class InvalidPathException(ValueError):
     pass
 
 class PathNotValid(ValueError):

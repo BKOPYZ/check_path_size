@@ -1,5 +1,6 @@
 from enum import Enum
 from math import floor
+from pathlib import Path
 
 
 class PathUnit(Enum):
@@ -22,7 +23,7 @@ class PathProperties:
     smallestindex = None
     # next time will do the file and folder count the check the similarity next time
 
-    def __init__(self, path: str, size: float, pathtype: PathType = PathType.TITLE):
+    def __init__(self, path: Path, size: float, pathtype: PathType = PathType.TITLE):
         self.unit = PathUnit.BYTE
         self.type = pathtype
         self.pos = self.__set_pos(path)
