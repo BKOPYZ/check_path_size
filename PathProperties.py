@@ -22,7 +22,7 @@ class PathProperties:
     BYTE_TO_KILOBYTE = 1.0/1024
     BYTE_TO_MEGABYTE = 1.0/(1024 ** 2)
     BYTE_TO_GIGABYTE = 1.0/(1024 ** 3)
-    smallestindex = None
+    smallestindex = 0
     # next time will do the file and folder count the check the similarity next time
 
     def __init__(self, path: Path, size: float, pathtype: PathType = PathType.TITLE):
@@ -42,7 +42,7 @@ class PathProperties:
         suffix = self.suffix_ended()
         return f"{spacefront}{self.get_name():<{spacebet}} {self.get_size():.2f} {suffix}\n"
 
-    def suffix_ended(self) -> str:
+    def suffix_ended(self) -> str | None:
         match self.unit:
             case PathUnit.KILO:
                 return "KB"
@@ -52,6 +52,7 @@ class PathProperties:
                 return "GB"
             case PathUnit.BYTE:
                 return "B"
+        return None
 
     def get_name(self) -> str:
         return self.__name
@@ -62,12 +63,11 @@ class PathProperties:
     def get_uncalculated_size(self) -> float:
         return self.__uncalculated_size
 
-    def get_path(self) -> str:
+    def get_path(self) -> Path:
         return self.__path
 
-    def __set_name(self, path: str) -> str:
-        splited_file = str(path).replace("/", "\\").split("\\")
-        name = splited_file[-1] if not splited_file[-1].isspace() else splited_file[-2]
+    def __set_name(self, path: Path) -> str:
+        name = path.name
         if len(name) >= 20:
             name = name[:20] + "..."
         return name
@@ -85,9 +85,9 @@ class PathProperties:
         else:
             return size
 
-    def __set_pos(self, path: str) -> int:
-        return len(str(path).split("\\")) - self.smallestindex
+    def __set_pos(self, path: Path) -> int:
+        return len(path.parents)+1 - self.smallestindex
 
     @classmethod
-    def set_smallestindex(cls, path: str):
-        cls.smallestindex = len(path.split('\\'))
+    def set_smallestindex(cls, path: Path):
+        cls.smallestindex = len(path.parents)+1

@@ -1,3 +1,2 @@
-!mb F:\download
-F:\download
-1
+/home/bkopyz
+2

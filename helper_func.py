@@ -19,7 +19,7 @@ def set_pathinfo(path: Path, depth: int, unit:PathUnit ) -> None:
         __add_pathinfo(fileprop,unit)
 
 
-def __get_directory_data(path: Path, pos: int, depth: int) -> Tuple[List[PathProperties], int]:
+def __get_directory_data(path: Path, pos: int, depth: int) -> Tuple[List[PathProperties], float]:
     directory_size = 0.0
     path_properties_list: List[PathProperties] = []
     allfilepath = list(path.glob("*"))
@@ -33,20 +33,20 @@ def __get_directory_data(path: Path, pos: int, depth: int) -> Tuple[List[PathPro
 def __get_directory_size_depth_reach(path: Path) -> float:
     global error_count
     size = 0.0
-    for path, dirs, files in os.walk(path):
+    for pathfile, dirs, files in os.walk(path):
         for file in files:
-            joined_path = os.path.join(path, file)
+            joined_path = os.path.join(pathfile, file)
             try:
                 size += os.path.getsize(joined_path)
-            except:
+            except FileNotFoundError:
                 # print("[ERROR]: Can't reach to the File or Directory")
                 error_count +=1
     return size
 
 
-def __add_pathinfo(pathPropertieslist: List[PathProperties], unit: PathUnit ) -> None:
+def __add_pathinfo(path_properties_list: List[PathProperties], unit: PathUnit ) -> None:
     global pathinfo
-    for path_object in pathPropertieslist:
+    for path_object in path_properties_list:
         pathinfo += path_object(unit)
 
 
@@ -72,9 +72,9 @@ def __get_path_properties(path: Path, pos: int, depth: int) -> List[PathProperti
 
 
 def set_title(path: Path, size: float) -> None:
-    fileTitle = PathProperties(path, size, PathType.TITLE)
+    file_title = PathProperties(path, size, PathType.TITLE)
     global pathinfo
-    pathinfo = fileTitle(PathUnit.UNSIGNED) + pathinfo
+    pathinfo = file_title(PathUnit.UNSIGNED) + pathinfo
 
 
 def write_log(pathstring: str) -> None:
@@ -91,24 +91,24 @@ def check_valid_path(path: str) -> bool:
 
 def get_data_from_config(path: str = CONFIG_PATH) -> Tuple[List[Tuple[str,PathUnit]], int]:
     with open(path, 'r') as config:
-        path_list: List[str] = []
+        path_list: List[Tuple[str,PathUnit]] = []
         depth = 1000
         datas = config.read().splitlines()
         if not len(datas):
             raise InvalidPathException("[ERROR]: Please specify the path for scanning")
         if datas[-1].isdigit():
-            depth = datas[-1]
+            depth = int(datas[-1])
             datas = datas[:-1]
         for data in datas:
             unit = PathUnit.UNSIGNED
             if(data[0] == "!"):
-                unit = get_pathUnit(data.split()[0][1:])
+                unit = get_pathunit(data.split()[0][1:])
                 data = data[3:].strip()
             check_valid_path(data)
             path_list.append((data,unit))
     return (path_list, depth)
 
-def get_pathUnit(unit:str)->PathUnit :
+def get_pathunit(unit:str)->PathUnit :
     unit = unit.lower()
     if unit == "b":
         return PathUnit.BYTE
@@ -150,7 +150,7 @@ def platform_is_window() -> bool:
 
 def get_path_log(path: str) -> str:
     if platform_is_window():
-        return ".\log\log_" + path.split("\\")[-1] + ".txt"
+        return ".\\log\\log_" + path.split("\\")[-1] + ".txt"
     return "./log/log_" + path.split("\\")[-1] + ".txt"
 
 
@@ -168,16 +168,20 @@ def run() -> None:
             error_count = 0
             log_path = get_path_log(norm_path(path))
             if check_path_log(log_path):
-                while ((ans := input("Do you want to replace the file that already exist? (Y/n): ").lower()) not in ['y', 'n']):
-                    pass
-                if ans == "n":
+                while True:
+                    answer = input()
+                    if answer not in {"y", "n"}:
+                        break
+                # while ((ans := input("Do you want to replace the file that already exist? (Y/n): ").lower()) not in ['y', 'n']):
+                #     pass
+                if answer == "n":
                     log_path = edit_path_log(log_path)
-            PathProperties.set_smallestindex(path)
             path = Path(path)
+            PathProperties.set_smallestindex(path)
             set_pathinfo(path, depth,condition_unit)
             set_title(path, size)
             write_log(log_path)
             print(f"[INFO]: Error count for path: {str(path)}: {error_count} error(s)")
-    except Exception as e:
+    except FileExistsError as e:
         print(e)
-        print(e.with_traceback())
+        
